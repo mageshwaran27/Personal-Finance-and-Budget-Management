@@ -1,0 +1,243 @@
+Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+_var_9 =10
+_var_9
+10
+if_9=9
+if_9
+9
+if=mahi
+SyntaxError: invalid syntax
+int if=9
+SyntaxError: invalid syntax
+char =9
+char
+9
+str ="mahi"
+str
+'mahi'
+from __future __import division
+SyntaxError: invalid syntax
+@mahi=9
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+a=10
+id(a)
+140728115229768
+id(10)
+140728115229768
+id(a,10)
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    id(a,10)
+TypeError: id() takes exactly one argument (2 given)
+a,b,c=10,20,30
+a,b,c
+(10, 20, 30)
+a,b=10
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    a,b=10
+TypeError: cannot unpack non-iterable int object
+print("No of variable =no of value")
+No of variable =no of value
+a,b=10,20,30
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    a,b=10,20,30
+ValueError: too many values to unpack (expected 2)
+r2vpxrtx
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    r2vpxrtx
+NameError: name 'r2vpxrtx' is not defined
+int()
+0
+bool()
+False
+float()
+0.0
+type(2)
+<class 'int'>
+type(magesh)
+Traceback (most recent call last):
+  File "<pyshell#26>", line 1, in <module>
+    type(magesh)
+NameError: name 'magesh' is not defined
+type("mahi")
+<class 'str'>
+type(0.12)
+<class 'float'>
+str("")
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    str("")
+TypeError: 'str' object is not callable
+double()
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    double()
+NameError: name 'double' is not defined
+type(0.12345667)
+<class 'float'>
+type(2+4j)
+<class 'complex'>
+type(7,9.2)
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    type(7,9.2)
+TypeError: type() takes 1 or 3 arguments
+type(7,"samantha",True)
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    type(7,"samantha",True)
+TypeError: type.__new__() argument 1 must be str, not int
+complex()
+0j
+float()
+0.0
+type([ ])
+<class 'list'>
+list[]
+SyntaxError: invalid syntax
+a[]
+SyntaxError: invalid syntax
+type(4+j)
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    type(4+j)
+NameError: name 'j' is not defined
+j0+6
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    j0+6
+NameError: name 'j0' is not defined
+type(None)
+<class 'NoneType'>
+type(NULL)
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    type(NULL)
+NameError: name 'NULL' is not defined
+var=True
+type(var)
+<class 'bool'>
+id(True)
+140728113699752
+var(var)
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    var(var)
+TypeError: 'bool' object is not callable
+id(var)
+140728113699752
+9j+2
+(2+9j)
+j9+2
+Traceback (most recent call last):
+  File "<pyshell#50>", line 1, in <module>
+    j9+2
+NameError: name 'j9' is not defined
+b=12+15
+id(+)
+SyntaxError: invalid syntax
+type(str)
+<class 'str'>
+a=magesh
+Traceback (most recent call last):
+  File "<pyshell#54>", line 1, in <module>
+    a=magesh
+NameError: name 'magesh' is not defined
+a="magesh"
+id(m)
+Traceback (most recent call last):
+  File "<pyshell#56>", line 1, in <module>
+    id(m)
+NameError: name 'm' is not defined
+byte()
+Traceback (most recent call last):
+  File "<pyshell#57>", line 1, in <module>
+    byte()
+NameError: name 'byte' is not defined. Did you mean: 'bytes'?
+type(byte(3))
+Traceback (most recent call last):
+  File "<pyshell#58>", line 1, in <module>
+    type(byte(3))
+NameError: name 'byte' is not defined. Did you mean: 'bytes'?
+len(id(a))
+Traceback (most recent call last):
+  File "<pyshell#59>", line 1, in <module>
+    len(id(a))
+TypeError: object of type 'int' has no len()
+a="python"
+b=(0,len(a)-1)
+b
+(0, 5)
+a=8909
+a[3]
+Traceback (most recent call last):
+  File "<pyshell#64>", line 1, in <module>
+    a[3]
+TypeError: 'int' object is not subscriptable
+print(a[2])
+Traceback (most recent call last):
+  File "<pyshell#65>", line 1, in <module>
+    print(a[2])
+TypeError: 'int' object is not subscriptable
+a="4567"
+a[3]
+'7'
+a=[1,2,3,4]
+a.pop(a[1])
+3
+a
+[1, 2, 4]
+a.delete(a[0])
+Traceback (most recent call last):
+  File "<pyshell#72>", line 1, in <module>
+    a.delete(a[0])
+AttributeError: 'list' object has no attribute 'delete'
+a.push(3)
+Traceback (most recent call last):
+  File "<pyshell#73>", line 1, in <module>
+    a.push(3)
+AttributeError: 'list' object has no attribute 'push'
+a.insert(1,12)
+s
+Traceback (most recent call last):
+  File "<pyshell#75>", line 1, in <module>
+    s
+NameError: name 's' is not defined
+a
+[1, 12, 2, 4]
+dir(list)
+['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+dict()
+{}
+var={1,2,3,4}
+var.pop()
+1
+var
+{2, 3, 4}
+pop()
+Traceback (most recent call last):
+  File "<pyshell#82>", line 1, in <module>
+    pop()
+NameError: name 'pop' is not defined. Did you mean: 'pow'?
+var.remove(3)
+var
+{2, 4}
+del var
+var
+Traceback (most recent call last):
+  File "<pyshell#86>", line 1, in <module>
+    var
+NameError: name 'var' is not defined. Did you mean: 'vars'?
+
+s={1,2,3,4,5,1,3}
+s
+{1, 2, 3, 4, 5}
+s={7,3,1,3,4,5,6,4}
+s
+{1, 3, 4, 5, 6, 7}
+231
+231
